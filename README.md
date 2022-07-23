@@ -12,7 +12,7 @@ Steps after git clone:
 
 About this Project:
 App Post Endpoints:
-- GET /posts => Get all posts in JSON format
+- GET /posts => Get posts in JSON format limit=10, query /posts?page={X} /current page=1
 - POST /posts => Store posts in DB from https://jsonplaceholder.typicode.com/posts
 - GET /posts/{post} => Get one record filtered by id in JSON format
 
