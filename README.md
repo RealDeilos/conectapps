@@ -8,7 +8,7 @@ Steps after git clone:
 - 5 Run: php artisan key:generate
 - 6 Run: php artisan migrate
 - 7 Run: php artisan serve
-- 8 Run: curl --request POST http://localhost:8000/posts (route post test, for practical matters Csrf has been excluded in VeryCsrfToken.php file)
+- 8 Run: curl --request POST http://localhost:8000/posts (route post test, for practical matters Csrf has been excluded in VerifyCsrfToken.php file)
 
 About this Project:
 App Post Endpoints:
